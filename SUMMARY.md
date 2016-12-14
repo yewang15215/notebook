@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* [系统](系统.md)
+* 系统
     * [Linux](os/linux/linux.md)
     * [macOS](os/macos/macos.md)
 * 后台
