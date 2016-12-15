@@ -9,4 +9,5 @@
 * 前端
     * [javascript](front-end/javascript/javascript.md)
     * [jquery](front-end/jquery/jquery.md)
+        * [开发笔记](jquery 开发笔记.md)
 
