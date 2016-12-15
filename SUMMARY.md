@@ -15,6 +15,8 @@
 * 后台框架
     * [laravel](back-end-framework/laravel/laravel.md)
         * [laravel 学习笔记](back-end-framework/laravel/laravel 学习笔记.md)
+    * [django](back-end-framework/django/django.md)
+        * [django 学习笔记](back-end-framework/django/django 学习笔记.md)
 * 前端框架
     * [jquery](front-end-framework/jquery/jquery.md)
         * [jquery 学习笔记](front-end-framework/jquery/jquery 学习笔记.md)
