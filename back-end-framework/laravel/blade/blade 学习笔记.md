@@ -20,6 +20,8 @@
     > @append 表明 “此处的内容添加到”，因此内容会不断扩展。如果之前使用了 @stop，@append 不会生效。
     
     > @override 的意思就是 “覆盖之前的所有定义，以这次的为准”。
+    
+    > 当神奇的 @parent 出现后，@append 的功能显得不是很有必要，因为完全可以使用 @parent 完成相同的功能。
 
 ## 参考：
 * [Blade 模板中有关 section 的那些事](https://ofcss.com/2014/12/16/blade-keywords-yield-section-show-stop-override-append.html)
