@@ -23,5 +23,9 @@
     
     > 当神奇的 @parent 出现后，@append 的功能显得不是很有必要，因为完全可以使用 @parent 完成相同的功能。
 
+* @endsection 和 @stop 的区别
+    > [@endsection became @stop in L4, just as @yieldSection became @show。](http://stackoverflow.com/questions/21199412/laravel-blade-endsection-vs-stop)
+    > 最新的版本里，@endsection 还是可以用的，甚至5.3版本的文档还是用 @endsection。
+
 ## 参考：
 * [Blade 模板中有关 section 的那些事](https://ofcss.com/2014/12/16/blade-keywords-yield-section-show-stop-override-append.html)
