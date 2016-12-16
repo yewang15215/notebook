@@ -5,3 +5,18 @@
 * 注释
 
 `{{-- This comment will not be present in the rendered HTML --}}`
+
+* @section 和 @yield 的区别
+    > @yield 是不可扩展的。
+    > @section 则既可以被替代，又可以被扩展。
+
+* @show 与 @stop 的区别
+    > 通常来说，在**首次**定义某个 section 的时候，应该用 @show，而在替换它或者扩展它的时候，不应该用 @show，应该用 @stop。
+    > @show 指的是执行到此处时将该 section 中的内容输出到页面，而 @stop 则只是进行内容解析，并且不再处理当前模板中后续对该 section 的处理，除非用 @override覆盖。
+
+* @append 和 @override
+    > @append 表明 “此处的内容添加到”，因此内容会不断扩展。如果之前使用了 @stop，@append 不会生效。
+    > @override 的意思就是 “覆盖之前的所有定义，以这次的为准”。
+
+## 参考：
+* [Blade 模板中有关 section 的那些事](https://ofcss.com/2014/12/16/blade-keywords-yield-section-show-stop-override-append.html)
