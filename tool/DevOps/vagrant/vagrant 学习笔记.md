@@ -1,0 +1,14 @@
+
+
+## 命令
+* 打包
+
+`vagrant package --output filename`
+
+
+## 问题解决
+* `A VirtualBox machine with the name 'homestead-7' already exists.`
+    - 解决方法：
+        1. `vboxmanage list vms`
+        2. 把需要的`VM ID`复制到`.vagrant/machines/default/virtualbox/id`
+    - [参考](http://stackoverflow.com/questions/26993903/a-virtualbox-machine-with-the-name-homestead-already-exists)
