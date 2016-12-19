@@ -31,9 +31,9 @@
     ```
 * 数组的顺序
     ```
-    `var_dump([1 , ] === [1]);` --> `bool(true)`
-    `var_dump([1 , 2] === [1, 2]);` --> `bool(true)`
-    `var_dump([1 , 2] === [2, 1]);` --> `bool(false)`
-    `var_dump(['a'=>2, 'b'=>3, ] === ['a'=>2, 'b'=>3]);` --> `bool(true)`
-    `var_dump(['a'=>2, 'b'=>3, ] === ['b'=>3, 'a'=>2]);` --> `bool(false)`
+    var_dump([1 , ] === [1]); --> bool(true)
+    var_dump([1 , 2] === [1, 2]); --> bool(true)
+    var_dump([1 , 2] === [2, 1]); --> bool(false)
+    var_dump(['a'=>2, 'b'=>3, ] === ['a'=>2, 'b'=>3]); --> bool(true)
+    var_dump(['a'=>2, 'b'=>3, ] === ['b'=>3, 'a'=>2]); --> bool(false)
     ```
