@@ -11,12 +11,16 @@
     $test1 = array_push($a, $b);
     $test2 = array_merge($a, $b);
     ```
+    ```
     var_dump($test1);
+    ```
     结果是：
     ```
     int(3)
     ```
+    ```
     var_dump($test2);
+    ```
     结果是：
     ```
     int(3)
