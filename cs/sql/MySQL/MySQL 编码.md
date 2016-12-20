@@ -14,7 +14,7 @@
     -- 服务器返回查询结果时使用的字符集 --
     SET character_set_results = utf8 
     
-    -- MySQL 服务器 把客户端传来的数据，从character_set_client字符集转换成 character_set_connection 字符集 --
+    -- MySQL 服务器 把客户端传来的数据，从 character_set_client 字符集转换成 character_set_connection 字符集 --
     SET character_set_connection = utf8
     
     ```
