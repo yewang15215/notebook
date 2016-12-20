@@ -9,3 +9,13 @@
         ```bash
         sudo scutil --set HostName newName
         ```
+
+* 隐藏/显示文件夹
+    - 隐藏
+        ```
+        chflags hidden xxx
+        ```
+    - 显示
+        ```
+        chflags nohidden xxx
+        ```
