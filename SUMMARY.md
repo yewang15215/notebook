@@ -13,6 +13,8 @@
             -  [Python 学习笔记](cs/language/Python/Python 学习笔记.md)
         - [javascript](cs/language/javascript/javascript.md)
             - [javascript 学习笔记](cs/language/javascript/javascript 学习笔记.md)
+    - 数据库
+        + [MySQL](MySQL/MySQL.md)
     - 后台框架
         - [laravel](cs/back-end-framework/laravel/laravel.md)
             - [laravel 学习笔记](cs/back-end-framework/laravel/laravel 学习笔记.md)
