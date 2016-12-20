@@ -11,6 +11,23 @@
     
     > @section 则既可以被替代，又可以被扩展。
 
+    * layout 使用 
+        ```@yield```
+        继承之后，使用 
+        ```@section('title', 'value')```
+    * layout 使用 
+        ```
+        @section
+        value
+        @show
+        ```
+        继承之后，使用
+        ```
+        @section 
+        value
+        @show 或者 @endsection
+        ```
+
 * @show 与 @stop 的区别
     > 通常来说，在**首次**定义某个 section 的时候，应该用 @show，而在替换它或者扩展它的时候，不应该用 @show，应该用 @stop。
     
