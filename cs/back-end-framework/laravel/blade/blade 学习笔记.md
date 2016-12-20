@@ -7,14 +7,18 @@
     `{{-- This comment will not be present in the rendered HTML --}}`
 
 * @section 和 @yield 的区别
-    > @yield 是不可扩展的，如果你要定义的部分没有**默认内容**让子模板扩展的，那么用 @yield($name, $default) 的形式会比较方便，如果你在子模板中并没有指定这个区块的内容，它就会显示默认内容，如果定义了，就会显示你定义的内容。非此即彼。
+    * @yield 是不可扩展的，如果你要定义的部分没有**默认内容**让子模板扩展的，那么用 @yield($name, $default) 的形式会比较方便，如果你在子模板中并没有指定这个区块的内容，它就会显示默认内容，如果定义了，就会显示你定义的内容。非此即彼。
     
-    > @section 则既可以被替代，又可以被扩展。
+    * @section 则既可以被替代，又可以被扩展。
 
     * layout 使用 
-        ```@yield```
+        ```
+        @yield
+        ```
         继承之后，使用 
-        ```@section('title', 'value')```
+        ```
+        @section('title', 'value')
+        ```
     * layout 使用 
         ```
         @section
