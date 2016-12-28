@@ -26,52 +26,52 @@
             ```
     - 字符串
         + 获取字符串
-            '''
+            ```
 
-            '''
+            ```
         + 字符串 -> datetime 对象
-            '''
+            ```
             datetime.datetime.strptime('2016-12-28', '%Y-%m-%d')
-            '''
+            ```
         + 字符串 -> 时间戳
-            '''
+            ```
             time.mktime(time.strptime('2016-12-28', '%Y-%m-%d %H:%M:%S'))
-            '''
+            ```
         + 字符串 -> struct_time
-            '''
+            ```
             time.strptime('2016-12-28', '%Y-%m-%d %H:%M:%S') 
-            '''
+            ```
     - 时间元组 struct_time
         + 获取 struct_time
-            '''
+            ```
 
-            '''
+            ```
         + struct_time -> datetime 对象
-            '''
+            ```
             datetime.datetime.fromtimestamp(time.mktime(struct_time))
-            '''
+            ```
         + struct_time -> 时间戳
-            '''
+            ```
             time.mktime(struct_time)  
-            '''
+            ```
         + struct_time -> 字符串
-            '''
+            ```
             time.strftime('%Y-%m-%d %H:%M:%S', struct_time) 
-            '''
+            ```
     - datetime 对象
         + 获取 datetime 对象
-            '''
+            ```
             datetime.datetime(2016, 12, 28) 
-            '''
+            ```
         + datetime -> 时间戳
-            '''
+            ```
             time.mktime(datetime.datetime.timple()) 
-            '''
+            ```
         + datetime -> struct_time
-            '''
+            ```
             datetime.datetime.timple()  
-            '''
+            ```
         + datetime -> 字符串
-            '''
+            ```
             datetime.datetime.strftime()  
-            '''
+            ```
