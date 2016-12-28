@@ -44,7 +44,7 @@
     - 时间元组 struct_time
         + 获取 struct_time
             ```
-
+            time.strptime('2016-12-28', '%Y-%m-%d %H:%M:%S') 
             ```
         + struct_time -> datetime 对象
             ```
