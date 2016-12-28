@@ -65,11 +65,11 @@
             ```
         + datetime -> 时间戳
             ```
-            time.mktime(datetime.datetime.timple()) 
+            time.mktime(datetime.datetime.timetuple()) 
             ```
         + datetime -> struct_time
             ```
-            datetime.datetime.timple()  
+            datetime.datetime.timetuple()  
             ```
         + datetime -> 字符串
             ```
