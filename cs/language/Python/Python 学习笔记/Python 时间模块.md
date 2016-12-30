@@ -75,3 +75,10 @@
             ```
             datetime.datetime.strftime()  
             ```
+* Python 时间运算 
+    - 加减
+        ```
+        import datetime
+        now = datetime.datetime.now()
+        date = now + datetime.timedelta(days = 1)
+        ```
